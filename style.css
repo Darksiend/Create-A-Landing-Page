@@ -8,24 +8,61 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  padding: 15px;
+}
+
+.sign-in-btn {
+  background-color: rgb(1, 123, 255);
+  color: rgb(248, 249, 250);
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 10px;
+}
+
 .container {
   padding-left: 30px;
   padding-right: 30px;
 }
 
-.blue-button {
-  background-color: rgb(1, 123, 255);
-  width: 80px;
-  height: 30px;
+.form-box {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+input {
+  line-height: 30px;
   border-radius: 5px;
-  color: white;
-  box-shadow: 2px 2px rgb(198, 219, 252);
+}
+
+.sign-up-btn {
+  background-color: rgb(1, 123, 255);
+  border-radius: 5px;
+  width: 30%;
+  white-space: nowrap;
+  color: rgb(248, 249, 250);
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+  padding-left: 15px;
+  padding-right: 55px;
+}
+
+#name {
+  width: 100%;
 }
 
 .main-content {
-  width: 550px;
-  padding-top: 100px;
+  width: 60%;
+  padding: 100px;
   margin: auto;
+
+  text-align: center;
 }
 
 .main-container {
@@ -39,18 +76,17 @@ i {
 }
 
 .benefits {
+  display: flex;
+  justify-content: space-between;
   padding-top: 40px;
   width: 80%;
   margin: auto;
-  border: 1px solid red;
+
   text-align: center;
 }
 
 .benefits-container {
   text-align: center;
-  display: inline-block;
   width: 30%;
-  height: 70px;
-  padding: 10px;
-  border: 1px solid green;
+  padding-top: 20px;
 }
