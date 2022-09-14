@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+* {
+  font-family: "Open Sans", sans-serif;
+  outline: 0 !important;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -19,8 +24,10 @@ body {
   background-color: rgb(1, 123, 255);
   color: rgb(248, 249, 250);
   border-radius: 5px;
-
+  padding-left: 13px;
+  padding-right: 13px;
   margin-top: 10px;
+  border: none;
   margin-bottom: 10px;
 }
 
@@ -39,12 +46,17 @@ body {
 input {
   line-height: 30px;
   border-radius: 5px;
+  border: none;
+}
+
+::placeholder {
+  color: grey;
 }
 
 .sign-up-btn {
   background-color: rgb(1, 123, 255);
   border-radius: 5px;
-
+  border: none;
   white-space: nowrap;
   color: rgb(248, 249, 250);
   margin-left: 5px;
@@ -75,11 +87,6 @@ input {
   background-position-y: 95%;
 }
 
-i {
-  height: 30px;
-  width: 30px;
-}
-
 .benefits {
   display: flex;
   justify-content: space-between;
@@ -92,10 +99,23 @@ i {
 
 .main-text {
   color: rgb(248, 249, 250);
+  white-space: nowrap;
 }
 
 .benefits-container {
   text-align: center;
   width: 30%;
   padding-top: 20px;
+}
+
+.about-benefits {
+  color: rgb(142, 142, 142);
+}
+
+.fa-solid {
+  color: rgb(61, 127, 247);
+}
+
+.fa-regular {
+  color: rgb(61, 127, 247);
 }
